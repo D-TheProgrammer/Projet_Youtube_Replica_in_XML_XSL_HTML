@@ -25,6 +25,10 @@ Ce dossier contient donc :
 - le fichier HTML : `youtube_replica.html`
 - le README que vous lisez
 
+> [!NOTE]
+> [lien pour lancer le jeu en **ligne** ] : 
+> https://d-theprogrammer.github.io/Game-AirSoccer_in_Js-Html_with_AI/
+
 > [!TIP]
 > Ligne de commande pour creer la page HTML :  
 > ```bash
@@ -50,6 +54,11 @@ This file therefore contains:
 - the .xsl file: `youtube_replica.xsl`
 - the HTML file: `youtube_replica.html`
 - the README you are reading
+
+
+> [!NOTE]
+> [link to start the game **online** ] : 
+> https://d-theprogrammer.github.io/Game-AirSoccer_in_Js-Html_with_AI/
 
 > [!TIP]
 > Command line to create the HTML page:
