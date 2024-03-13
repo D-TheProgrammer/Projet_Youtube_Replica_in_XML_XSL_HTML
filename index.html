@@ -1,0 +1,234 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+          body{
+            font-family: 'Roboto', sans-serif;
+          }
+          .s_video {
+            display: inline-block;
+            width: 350px;
+            
+            padding: 10px;
+            margin: 10px;
+          }
+          .s_miniature {
+            width: 350px;
+            height: 200px;
+            border-radius: 15px;
+          }
+          .s_titre {
+            font-family: 'Roboto', sans-serif;
+            padding: 10px;
+            font-weight: bold;
+          }
+          .s_vues {
+            color: #888;
+            font-size: 75%;
+          }
+          .s_PP_chaine{
+            padding: 0px;
+            margin: 10px 0px 0px 10px;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+          }
+          .s_nomDeChaine{
+            color: #888;
+            padding: 3px 0px 3px 0px;
+            font-size: 75%;
+          }
+          .s_duree{
+            position: absolute; 
+            bottom: 0;
+            right: 0; 
+            background-color: black; 
+            color: white;
+            padding: 3px;
+            margin:4px;
+            font-size: 75%;
+            border-radius: 5px;
+          }
+
+          .s_barreLatterale{
+            width: 200px; 
+            float: left; 
+            font-size: 90%;
+          }
+          .s_iconeCategorie{
+            width:20px;
+            height:20px;
+            padding: 0px 0px 0px 15px;
+          }
+          .s_nomCategorie{
+            padding: 0px 0px 0px 15px;
+          }
+          .s_PP_chaine_lateral{
+        
+            padding: 0;   
+            margin: 0px 0px 0px 15px;
+            border-radius: 50px;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+          }
+
+          
+          .s_separateur {
+            width: 200px; 
+            border-bottom: 1px solid #ccc;
+            margin: 10px 0;
+          }
+
+          .s_conteneurVideo {
+            display: flex; /* Utiliser la mise en page flexbox */
+            align-items: flex-start; /* Aligner les éléments en haut */
+            flex-wrap: wrap; 
+          }
+          .s_conteneurBarreLaterale{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            
+          }
+          
+          .s_barreLatterale:hover {
+            background-color: #eee;
+            height:40px;
+            border-radius: 8px;
+          }
+
+          a {
+            color: inherit; 
+            text-decoration: none; 
+          }
+
+        </style>
+</head>
+<body><div style="display: flex;">
+<div class="s_conteneurBarreLaterale">
+<h4 class="s_iconeCategorie">General</h4>
+<a href="https://www.youtube.com/"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://uxwing.com/wp-content/themes/uxwing/download/buildings-architecture-real-estate/home-icon.png"><span class="s_nomCategorie">Accueil</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/shorts/"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://i.pinimg.com/originals/17/d2/18/17d21878c22fe49e7e4752eecaa36541.png"><span class="s_nomCategorie">Shorts</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/feed/subscriptions"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_subscription_icon_136007.png"><span class="s_nomCategorie">Abonnements</span>
+</div></a><br style="clear:both;"><hr class="s_separateur">
+<h4 class="s_iconeCategorie">Vous</h4>
+<a href="https://www.youtube.com/feed/history"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://e7.pngegg.com/pngimages/6/111/png-clipart-computer-icons-web-browser-web-browsing-history-world-wide-web-text-desktop-wallpaper-thumbnail.png"><span class="s_nomCategorie">Historique</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/playlist?list=WL"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://i.pinimg.com/564x/85/8b/cb/858bcb03021cfc9cf091de84a0dca6cd.jpg"><span class="s_nomCategorie">A regarder plus tard</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/playlist?list=LL"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://clipart-library.com/newhp/439-4395803_thumbs-up-comments-thumb-up-black-and-white.png"><span class="s_nomCategorie">Vidéo j'aime</span>
+</div></a><br style="clear:both;"><hr class="s_separateur">
+<h4 class="s_iconeCategorie">Abonnements</h4>
+<a href="https://www.youtube.com/@freecodecamp"><div class="s_barreLatterale">
+<img class="s_PP_chaine_lateral" src="https://play-lh.googleusercontent.com/7cis8M9xeE5wYpR9QvJOC1dnvG5mlI6sy3LpP6kS3FYV29SU5dtBBO2ApKXVf2qWYg"><span class="s_nomCategorie">freeCodeCamp.org</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/@Underscore_"><div class="s_barreLatterale">
+<img class="s_PP_chaine_lateral" src="https://yt3.googleusercontent.com/c9wuY-xQqBByos_Rvr8RkN68Pxv1kouzbHU_Yn73JDwaNdH0-vAY_eU9Kauuk9IQxIATDoII7w=s900-c-k-c0x00ffffff-no-rj"><span class="s_nomCategorie">Underscore_</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/@Fireship"><div class="s_barreLatterale">
+<img class="s_PP_chaine_lateral" src="https://yt3.googleusercontent.com/ytc/AIf8zZTUVa5AeFd3m5-4fdY2hEaKof3Byp8VruZ0f0FNEA=s900-c-k-c0x00ffffff-no-rj"><span class="s_nomCategorie">Fireship</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/@LearnCodingOfficial"><div class="s_barreLatterale">
+<img class="s_PP_chaine_lateral" src="https://yt3.googleusercontent.com/ytc/AIf8zZS378_9h3DeRUHer2991kKsit21A1ZGN8d_l1jI=s900-c-k-c0x00ffffff-no-rj"><span class="s_nomCategorie">Learn Coding</span>
+</div></a><br style="clear:both;"><hr class="s_separateur">
+<h4 class="s_iconeCategorie">Explorer</h4>
+<a href="https://www.youtube.com/feed/trending"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://www.csaimages.com/pix/ARCH/V/850076_WP.JPG"><span class="s_nomCategorie">Tendances</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://t4.ftcdn.net/jpg/05/23/30/19/360_F_523301976_DS2HXfxNX6ctp7rwXXFJ9vsVjKSFqsxZ.jpg"><span class="s_nomCategorie">Musique</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/feed/storefront"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://static.vecteezy.com/ti/vecteur-libre/p1/5919290-video-play-film-player-film-solid-icon-vector-illustration-logo-template-appropried-for-many-purposes-gratuit-vectoriel.jpg"><span class="s_nomCategorie">Film et séries TV</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://e7.pngegg.com/pngimages/982/772/png-clipart-streaming-media-computer-icons-youtube-live-world-wide-web-text-computer.png"><span class="s_nomCategorie">Direct</span>
+</div></a><br style="clear:both;"><a href="https://www.youtube.com/gaming"><div class="s_barreLatterale">
+<img class="s_iconeCategorie" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_gaming_icon_137007.png"><span class="s_nomCategorie">Jeux Vidéo</span>
+</div></a><br style="clear:both;"><hr class="s_separateur">
+</div>
+<div class="s_conteneurVideo">
+<a href="https://www.youtube.com/watch?v=t4GQqzmq9rA&amp;ab_channel=SKEssayWriting"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/t4GQqzmq9rA/sddefault.jpg"><div class="s_duree">1:16 / 1:37</div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/fvD-RUAHvrQvxT5Qs234O8tGi6HGooYh-V_USLol9YTvD-yq6J6e-UTIp-FLCKF5vj4ojSq1=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">10 ways to save the environment!!!10 lines on how can we save the environment!!<div class="s_nomDeChaine">SK Essay Writing</div>
+<div style="display: flex;" class="s_vues">441k vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 2 ans</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=8hly31xKli0&amp;ab_channel=freeCodeCamp.org"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/8hly31xKli0/maxresdefault.jpg"><div class="s_duree"> 5:22:09 </div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://play-lh.googleusercontent.com/7cis8M9xeE5wYpR9QvJOC1dnvG5mlI6sy3LpP6kS3FYV29SU5dtBBO2ApKXVf2qWYg"><div class="s_titre">Algorithms and Data Structures Tutorial - Full Course for Beginners<div class="s_nomDeChaine">freeCodeCamp.org</div>
+<div style="display: flex;" class="s_vues">4.1 M de vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 2 ans</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=5w2QN6frVSE&amp;ab_channel=Zorg06-Scratch"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/5w2QN6frVSE/hqdefault.jpg"><div class="s_duree">0:40 / 5:03</div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/LXPo15bOJsqe3QJZFMbA-JBxZkNTNP-b0UWoa6ILu3zAYXIFHq35DPl0XM4JrNGMW_ESbgNHVw=s176-c-k-c0x00ffffff-no-rj"><div class="s_titre">Faire des IA 🤖 sur Scratch 😺<div class="s_nomDeChaine">Zorg06 - Scratch</div>
+<div style="display: flex;" class="s_vues">1.1k vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 3jours</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=PlzV4aJ7iMI&amp;ab_channel=ScienceEtonnante"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/PlzV4aJ7iMI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCsiJehZIQVu8CVkKldvzoIUgG-YA"><div class="s_duree"> 0:17/22:09 </div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/ytc/AIf8zZQFfhTRw5HS-yDVvsOfwOMUMWTHZgZ5woimFAlP=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">LENIA : Une nouvelle forme de vie mathématique !<div class="s_nomDeChaine">ScienceEtonnante</div>
+<div style="display: flex;" class="s_vues">459K vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 2 semaines</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=epgGD9j7FGM&amp;ab_channel=MigosATL"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://upload.wikimedia.org/wikipedia/en/1/10/MigosCulture.jpg"><div class="s_duree"> 0:25 / 6:04 </div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://media.pitchfork.com/photos/60c75eba0adf322603a001ab/16:9/w_1280,c_limit/Migos:%20Culture%20III.jpeg"><div class="s_titre">Migos - Kelly Price ft Travis Scott [Audio Only] <div class="s_nomDeChaine">Migos ATL</div>
+<div style="display: flex;" class="s_vues">63 M de vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 7 ans</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=LetoCFtmveo&amp;ab_channel=MKIceAndFire"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/LetoCFtmveo/maxresdefault.jpg"><div class="s_duree"> 15:52:43 </div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/ytc/AIf8zZRLucqVU42JsaFprqQvE4GaTd-UhnA3wbHJO2Je6w=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">SPIDER-MAN Gameplay Walkthrough Part 1 FULL GAME [4K 60FPS PS5] - No Commentary<div class="s_nomDeChaine">MKIceAndFire</div>
+<div style="display: flex;" class="s_vues">121K vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 1 mois</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=L_jWHffIx5E&amp;ab_channel=SmashMouthVEVO"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/L_jWHffIx5E/sddefault.jpg"><div class="s_duree"> 0:00 / 3:57 </div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/witHDk_fHcZkC71hJUZCJoCGdhoWtL_FfLOU3-vjhp6XyTTSwI8-4-PN4nk_3uS-YPG11REeHQ=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">Smash Mouth - All Star (Official Music Video)<div class="s_nomDeChaine">SMASH MOUTH</div>
+<div style="display: flex;" class="s_vues">476 M de vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 14 ans</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=Rq0X8qpS68k&amp;ab_channel=T%27choupi"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/Rq0X8qpS68k/maxresdefault.jpg"><div class="s_duree">0:57 / 7:05</div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/ytc/AIf8zZQ96CIP2bZoFmQjyxh_s7HHcs8oUVTus-B8amwj5g=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">T'choupi et ses amis - La super classe (EP.8)<div class="s_nomDeChaine">T'choupi</div>
+<div style="display: flex;" class="s_vues">9.6M de vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 8 ans</div>
+</div>
+</div>
+</div></a><a href="https://www.youtube.com/watch?v=awLQ_A33H9Y&amp;ab_channel=NBA"><div class="s_video">
+<div style="position: relative;">
+<img class="s_miniature" src="https://i.ytimg.com/vi/awLQ_A33H9Y/maxresdefault.jpg"><div class="s_duree">9:58 / 9:57</div>
+</div>
+<div style="display: flex;">
+<img class="s_PP_chaine" src="https://yt3.googleusercontent.com/_cJUz0aSSV6TtTrw4_XaqsMVjbMkddQxxLxnN2G_PJ9NZv-9sjVXC88ILPd7kQRkO8OO7YG7=s900-c-k-c0x00ffffff-no-rj"><div class="s_titre">The FULL 2023 NBA #ATTSlamDunk Contest! 👀 | 2023 #NBAAllStar<div class="s_nomDeChaine">NBA</div>
+<div style="display: flex;" class="s_vues">10M de vues<p style="font-weight: bold; margin: 0; padding:0; font-size: 22px;"> . </p>il y a 11mois</div>
+</div>
+</div>
+</div></a>
+</div>
+</div></body>
+</html>
