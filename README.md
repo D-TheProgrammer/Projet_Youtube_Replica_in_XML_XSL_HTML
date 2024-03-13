@@ -32,7 +32,7 @@ Ce dossier contient donc :
 > [!TIP]
 > Ligne de commande pour creer la page HTML :  
 > ```bash
-> xsltproc youtube_replica.xml youtube_replica.xsl -o youtube_replica.html
+> xsltproc youtube_replica.xml youtube_replica.xsl -o index.html
 > ```
 
 ___
@@ -63,5 +63,5 @@ This file therefore contains:
 > [!TIP]
 > Command line to create the HTML page:
 > ```bash
-> xsltproc youtube_replica.xml youtube_replica.xsl -o youtube_replica.html
+> xsltproc youtube_replica.xml youtube_replica.xsl -o index.html
 > ```
