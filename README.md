@@ -26,8 +26,8 @@ Ce dossier contient donc :
 - le README que vous lisez
 
 > [!NOTE]
-> [lien pour lancer le jeu en **ligne** ] : 
-> https://d-theprogrammer.github.io/Game-AirSoccer_in_Js-Html_with_AI/
+> [lien pour lancer le projet en **ligne** ] : 
+> https://d-theprogrammer.github.io/Projet_Youtube_Replica_in_XML_XSL_HTML/
 
 > [!TIP]
 > Ligne de commande pour creer la page HTML :  
@@ -57,8 +57,8 @@ This file therefore contains:
 
 
 > [!NOTE]
-> [link to start the game **online** ] : 
-> https://d-theprogrammer.github.io/Game-AirSoccer_in_Js-Html_with_AI/
+> [link to start the project **online** ] : 
+> https://d-theprogrammer.github.io/Projet_Youtube_Replica_in_XML_XSL_HTML/
 
 > [!TIP]
 > Command line to create the HTML page:
