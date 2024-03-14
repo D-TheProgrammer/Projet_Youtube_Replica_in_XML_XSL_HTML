@@ -6,6 +6,9 @@
   <img width="752" alt="image" src="https://github.com/D-TheProgrammer/Projet_Youtube_Replica_in_XML_XSL_HTML/assets/151149998/332cb307-ee2c-4d42-961a-27184d520c98">
 </div>
 
+### SOMMAIRE / SUMMARY
+- Présentation en francais / Presentation in French
+- Présentation en anglais / Presentation in English
 
 ## [PRESENTATION EN FRANCAIS]
 Projet réalisé par D-TheProgrammer
