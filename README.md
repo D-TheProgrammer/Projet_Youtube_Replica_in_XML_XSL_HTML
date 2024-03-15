@@ -7,8 +7,8 @@
 </div>
 
 ### SOMMAIRE / SUMMARY
-- Présentation en francais / Presentation in French
-- Présentation en anglais / Presentation in English
+- [Présentation en francais / Presentation in French](#presentation-en-francais)
+- [Présentation en anglais / Presentation in English](#english-presentation)
 
 ## [PRESENTATION EN FRANCAIS]
 Projet réalisé par D-TheProgrammer
